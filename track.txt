@@ -1,0 +1,7 @@
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ gedit pr1.awk
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 306
+ The no.of packets recieved : 1416
+ sem5a@iselab1:~$gedit new.tcl
