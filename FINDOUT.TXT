@@ -1,0 +1,57 @@
+sem5a@iselab1:~$ gedit new.tcl
+
+(gedit:4227): Gtk-CRITICAL **: _gtk_widget_captured_event: assertion 'WIDGET_REALIZED_FOR_EVENT (widget, event)' failed
+sem5a@iselab1:~$ clear
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ gedit pr1.awk
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 306
+ The no.of packets recieved : 1416
+ sem5a@iselab1:~$gedit new.tcl
+^C
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 306
+ The no.of packets recieved : 1416
+ sem5a@iselab1:~$ns new.tcl
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 0
+ The no.of packets recieved : 574
+ sem5a@iselab1:~$gedit new.tclr
+sem5a@iselab1:~$ gedit xgraph.txt
+sem5a@iselab1:~$ xgraph xgraph
+Warning:  cannot open file `xgraph'
+Nothing to plot.
+sem5a@iselab1:~$ gedit xgraph.txt
+sem5a@iselab1:~$ gedit note.txt
+sem5a@iselab1:~$ xgraph note.txt
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 312 requests (310 known processed) with 0 events remaining.
+sem5a@iselab1:~$ gedit note.txt
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 306
+ The no.of packets recieved : 1416
+ sem5a@iselab1:~$gedit new.tclr
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ awk -f pr1.awk prog1.tr
+The no.of packets dropped  : 597
+ The no.of packets recieved : 477
+ sem5a@iselab1:~$gedit new.tcl
+sem5a@iselab1:~$ gedit new.txt
+sem5a@iselab1:~$ xgraph new.txt
+^Z
+[1]+  Stopped                 xgraph new.txt
+sem5a@iselab1:~$ gedit new.txt
+sem5a@iselab1:~$ gedit new.tcl
+sem5a@iselab1:~$ ns new.tcl
+sem5a@iselab1:~$ gedit prog1.tr
+sem5a@iselab1:~$ xgraph new.txt
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":0"
+      after 294 requests (218 known processed) with 0 events remaining.
+sem5a@iselab1:~$ 
