@@ -1,0 +1,21 @@
+To test if ns2 is installed:
+Command : ns
+Output :  %
+The above output means NS2 is installed and wokring properly in your device.
+
+
+
+To test if NAM(Network Animator Simulator) is installed:
+Command : nam
+Output :  A window opens up which has some text about nam in it.
+The above output means NAM is installed and wokring properly in your device.
+
+
+
+Procedure to run any code provided:
+gedit Filename.tcl # Create this file and place the code in it.
+ns Filename.tcl  # Used to run the code on NS2
+gedit Filename1.awk  #creating an awk file which has a fuction in it.
+awk -f Filename1.awk prog1.tr  # command to run the awk function file on the output of the program. prog1.tr is auto generated based on the name given in the .tcl file upon running of NAM. 
+gedit Filename2.txt # creating a text containing parameters to be plotted.
+xgraph new.txt # Plotting the xgraph.
