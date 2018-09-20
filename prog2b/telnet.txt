@@ -1,8 +1,0 @@
-title= throughput Vs bandwidth 
-title_x= throughput
-title_y= bandwidth
- 
-
-18026
-
-18026
