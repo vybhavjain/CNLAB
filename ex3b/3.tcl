@@ -1,11 +1,7 @@
-Program 3: Simulate a four-node point-to-point network, and connect the links as follows: n0->n2, n1->n2 and n2->n3.
-Apply TCP agent changing the parameters and determine the number of packets sent/received by TCP/UDP
-
-
 set ns [new Simulator]
-set nf [open prog2.nam w]
+set nf [open 3.nam w]
 $ns namtrace-all $nf
-set nd [open prog2.tr w]
+set nd [open 3.tr w]
 $ns trace-all $nd
 
 proc finish {} {
@@ -20,9 +16,10 @@ set n0 [$ns node]
 set n1 [$ns node]
 set n2 [$ns node]
 set n3 [$ns node]
+
 #set color to the nodes
- $n1 color blue
 $n0 color red
+$n1 color blue
 $n2 color purple
 $n3 color orange
 
