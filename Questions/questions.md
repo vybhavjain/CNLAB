@@ -1,4 +1,4 @@
-# Part A: Implement the following using C/C++:
+# Part A: Implement the following using C:
 
 1. Using TCP/IP sockets, write a client-server program to make client send the file name and the server to send back the contents of the requested file name “sample.txt” with the following contents:”Hello we are at Computer Networks Lab”. Display suitable error message in case the file is not present in the server.
 
