@@ -6,6 +6,7 @@ void delete_by_priority(int);
 void create();
 void check(int);
 void display_pqueue();
+// Need to add HP and LP
  
 int pri_que[MAX];
 int front, rear;
