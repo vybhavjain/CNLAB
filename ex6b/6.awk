@@ -7,22 +7,16 @@ Tput = 0;
 {
 event = $1;
 time = $2;
-from = $3;
-to = $4;
-pkt = $5;
-size = $6;
-fid = $7;
-src = $8;
-dst = $9;
-seqn = $10;
-pid = $11;
 if (event == "+") {
-if(time < startTime) {
+if(time < startTime) 
+{
 startTime = time;
 }
 }
-if (event == "r") {
-if(time > stopTime) {
+if (event == "r") 
+{
+if(time > stopTime) 
+{
 stopTime = time;
 }
 sSize+=size;
